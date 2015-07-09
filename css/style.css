@@ -1,0 +1,60 @@
+/*----------ELEMENTS----------*/
+
+body {
+	background-color: #FCFCE6;
+}
+
+button {
+	border: 1px solid black;
+	width: 100%;
+	box-shadow: 10px 10px 10px 1px #555;
+	height: 40px;
+	font-size: 20px;
+	text-align: center;
+	padding-top: 5px;
+	background-color: white;
+	display: block;
+}
+
+button:hover {
+	height: 50px;
+	width: 105%;
+	background-color: #BBF7BA;
+}
+
+main {
+	font-size: 20px;
+}
+
+/*----------CLASSES----------*/
+
+.header {
+	height: 300px;
+	padding: 0px;
+}
+
+.header-img {
+	width: 100%;
+	height: 300px;
+}
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.main-title {
+	font-weight: bold;
+}
+
+.main-paragraph {
+	padding-top: 20px;
+}
+
+.navbar {
+	height: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*----------ID'S----------*/
