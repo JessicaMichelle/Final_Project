@@ -7,7 +7,7 @@ body {
 }
 
 a {
-	background-color: white;
+	background-color: #F0F0F0;
 	border: 1px solid black;
 	border-radius: 10px;
 	box-shadow: 10px 10px 10px 1px #555;
@@ -40,14 +40,14 @@ main {
 
 table {
 	text-align: center;
-	border: 1px dashed #000;
-	margin-bottom: 20px;
+	background-image: url(../img/subtle_grunge.png);
 }
 
 td {
-	border: 1px dashed #000;
+	/*border: 1px dashed #000;*/
 	padding-top: 5px;
 	padding-bottom: 5px;
+	box-shadow: -2px 2px 5px 0px #000;
 }
 
 /*----------CLASSES----------*/
@@ -98,6 +98,15 @@ td {
 	height: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.table {
+	border: 1px solid black;
+	width: 58.33%;
+	border-radius: 15px;
+	overflow: hidden;
+	padding: 0px;
+	box-shadow: -10px 10px 10px 1px #555;
 }
 
 .toppings {
