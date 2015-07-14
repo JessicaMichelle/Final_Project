@@ -17,8 +17,8 @@ a {
 	height: 48px;
 	padding-top: 5px;
 	text-align: center;
-	width: 100%;
 	text-decoration: none;
+	width: 100%;
 }
 
 a:hover {
@@ -39,25 +39,56 @@ main {
 }
 
 table {
-	text-align: center;
 	background-image: url(../img/subtle_grunge.png);
+	text-align: center;
 }
 
 td {
-	/*border: 1px dashed #000;*/
-	padding-top: 5px;
-	padding-bottom: 5px;
 	box-shadow: -2px 2px 5px 0px #000;
+	padding-bottom: 5px;
+	padding-top: 5px;
 }
 
 /*----------CLASSES----------*/
 
 .bold {
 	font-weight: bold;
+	margin-top: 10px;
+}
+
+.caption {
+	margin-left: 150px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.combo {
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-left: 40px;
 }
 
 .container-fluid {
+	margin-bottom: 50px;
+}
+
+.cup {
+	margin-left: 252px;
+}
+
+.dressings {
+	font-size: 16px;
+	margin-top: 5px;
 	margin-bottom: 20px;
+	margin-left: 160px;
+	padding-left: 0px;
+	padding-right: 0px;
+	text-align: center;
+}
+
+.fri {
+	margin-left: 313px;
 }
 
 .header {
@@ -80,10 +111,10 @@ td {
 }
 
 .item-paragraph {
-	padding-left: 50px;
-	padding-right: 50px;
 	font-style: italic;
 	margin-top: -10px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .main-title {
@@ -94,19 +125,41 @@ td {
 	padding-top: 20px;
 }
 
+.mon {
+	margin-left: 269px;
+}
+
 .navbar {
 	height: 100%;
 	padding-left: 0px;
 	padding-right: 0px;
 }
 
+.salad {
+	padding-left: 40px;
+}
+
+.salad-descr {
+	font-style: italic;
+	margin-top: -10px;
+	padding-left: 60px;
+}
+
+.soup {
+	margin-left: -40px;
+}
+
 .table {
 	border: 1px solid black;
-	width: 58.33%;
 	border-radius: 15px;
+	box-shadow: -10px 10px 10px 1px #555;
 	overflow: hidden;
 	padding: 0px;
-	box-shadow: -10px 10px 10px 1px #555;
+	width: 58.33%;
+}
+
+.thurs {
+	margin-left: 302px;
 }
 
 .toppings {
@@ -117,6 +170,14 @@ td {
 
 }
 
+.tues {
+	margin-left: 276px;
+}
+
 .underline {
 	text-decoration: underline;
+}
+
+.wed {
+	margin-left: 290px;
 }
