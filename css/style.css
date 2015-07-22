@@ -6,32 +6,18 @@ body {
 	font-family: 'Lora', serif;
 }
 
-a {
-	background-color: #F0F0F0;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 10px 10px 10px 1px #555;
-	color: black;
-	display: block;
-	font-size: 20px;
-	height: 48px;
-	padding-top: 5px;
-	text-align: center;
-	text-decoration: none;
-	width: 100%;
-}
-
-a:hover {
-	background-color: #BBF7BA;
-	color: white;
-	height: 50px;
-	text-decoration: none;
-	width: 105%;
+h4 {
+	font-style: italic;
+	margin-top: -10px;
 }
 
 h5 {
 	font-style: italic;
 	margin-top: -10px;
+}
+
+img {
+	width: 338px
 }
 
 main {
@@ -54,6 +40,28 @@ td {
 .bold {
 	font-weight: bold;
 	margin-top: 10px;
+}
+
+.button {
+	background-color: #F0F0F0;
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 10px 10px 10px 1px #555;
+	color: black;
+	display: block;
+	font-size: 20px;
+	height: 48px;
+	padding-top: 5px;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.button:hover {
+	background-color: #BBF7BA;
+	color: #999;
+	text-decoration: none;
+	width: 105%;
 }
 
 .caption {
@@ -129,6 +137,10 @@ td {
 	margin-left: 269px;
 }
 
+.mysa {
+	padding-top: 30px;
+}
+
 .navbar {
 	height: 100%;
 	padding-left: 0px;
@@ -170,6 +182,10 @@ td {
 
 }
 
+.tripadvisor {
+	margin-left: -100px;
+}
+
 .tues {
 	margin-left: 276px;
 }
@@ -180,4 +196,16 @@ td {
 
 .wed {
 	margin-left: 290px;
+}
+
+.zomato {
+	padding-top: 30px;
+}
+
+/*----------IMG RESPONSIVE----------*/
+
+@media@media screen and (max-width:320px) {
+    div {
+        width: 30%;
+    }
 }
